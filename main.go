@@ -9,6 +9,11 @@ func CalculateSum(a int, b int) int {
 	return sum
 }
 
+func CalculateDiv(a int, b int) int {
+	div := a / b
+	return div
+}
+
 func CalculateProduct(a int, b int) int {
 	product := a * b
 	return product
