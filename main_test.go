@@ -12,3 +12,10 @@ func TestSum(t *testing.T) {
 
 	assert.Equal(t, expectedResult, actualResult)
 }
+
+func TestProduct(t *testing.T) {
+	actualResult := CalculateProduct(3, 5)
+	expectedResult := 15
+
+	assert.Equal(t, expectedResult, actualResult)
+}
